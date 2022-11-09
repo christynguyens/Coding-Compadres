@@ -1,0 +1,13 @@
+body {
+    background-color: palevioletred;
+}
+
+h1 {
+    color:aqua
+}
+
+#main-container{
+    border: 1px solid black;
+}
+
+/* div{border: 1px solid black} */
