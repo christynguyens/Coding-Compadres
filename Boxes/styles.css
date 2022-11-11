@@ -20,5 +20,8 @@ padding: 100px;
 
 .little-box {
 background-color:red;
+padding: 25px;
+border: 50px solid black;
+margin: 60px;
 }
     
