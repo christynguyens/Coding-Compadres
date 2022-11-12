@@ -14,14 +14,13 @@ height:100px;
 
 .big-box {
 background-color: green;
-padding-top: 80px;
-padding-right: 40px;
+padding-top: 150px;
+padding-bottom: 150px;
 }
 
 
 .little-box {
 background-color:red;
-padding-bottom: 10px;
-border: 20px solid black;
+border: 10px solid black;
 }
     
