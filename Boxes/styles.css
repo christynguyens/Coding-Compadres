@@ -1,6 +1,6 @@
 #headline-div{
     background-color: honeydew;
-    margin: 50px;
+    margin-bottom: 40px;
     padding: 40px;
     border: 2px solid red;
 }
@@ -14,8 +14,7 @@ height:100px;
 
 .big-box {
 background-color: green;
-padding-top: 150px;
-padding-bottom: 150px;
+padding: 20px 45px 100px 100px;
 }
 
 
