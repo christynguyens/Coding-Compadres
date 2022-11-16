@@ -1,0 +1,57 @@
+/* * applies to all elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* percentage allows it to make it responsive */
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Nav Bar */
+
+.topbar{
+    background-color: palegreen;
+}
+
+.topbar ul{
+    display: flex;
+    justify-content: right;
+}
+
+.topbar ul li{
+    list-style: none;
+}
+
+/* figure out a way to make everything centered using flex box and the header */
+/* fades to blue */
+.topbar ul li a{
+    display: block;
+    padding: 1em;
+    color: lightcoral;
+    transition: .5s;
+}
+
+/* changes color when mouse hovers over home */
+.topbar ul li a:hover{
+    background-color: black;
+}
+
+
+body {
+    background-color: white
+}
+
+h1 {
+    color:aqua
+}
+
+#main-container{
+    border: 1px solid black;
+}
+
+
+/* div{border: 1px solid black} */

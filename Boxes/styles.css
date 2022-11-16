@@ -1,0 +1,25 @@
+#headline-div{
+    background-color: honeydew;
+    margin-bottom: 40px;
+    padding: 40px;
+    border: 2px solid red;
+}
+
+
+.big-box, .little-box {
+width:100px;
+height:100px;
+}
+
+
+.big-box {
+background-color: green;
+padding: 150px 40px 40px 150px;
+}
+
+
+.little-box {
+background-color:red;
+border: 20px solid black;
+}
+    
