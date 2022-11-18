@@ -63,3 +63,9 @@ main{
     /* Automatic margin on the right and left hand side */
     margin: 0 auto;
 }
+
+/* Footer Nav */
+footer{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
