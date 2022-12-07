@@ -2,6 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+    border-style: solid;
+}
+
+img{
+    width: 100%
 }
 
 /* percentage allows it to make it responsive */
@@ -10,6 +15,9 @@ html,body{
     width: 100%;
 }
 
+section {
+    text-align: center;
+}
 
 /* Nav Bar */
 
@@ -19,7 +27,7 @@ html,body{
 
 .topbar ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .topbar ul li{
@@ -58,14 +66,21 @@ h1 {
 
 main{
     width: 100%;
-    max-width: 900px;
+    max-width: 1080px;
     background-color: peachpuff;
     /* Automatic margin on the right and left hand side */
     margin: 0 auto;
 }
 
+#hero {
+    max-width: 1080px;
+    height: 300px;
+    object-fit: cover;
+}
+
 /* Footer Nav */
 footer{
     display: grid;
+    
     grid-template-columns: auto 1fr auto;
 }
