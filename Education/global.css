@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 img{
@@ -38,13 +38,38 @@ section {
 /* fades to blue */
 .topbar ul li a{
     display: block;
-    padding: 1em;
+    padding: 1.5em;
     color: black;
     transition: .5s;
 }
 
 /* changes color when mouse hovers over home */
 .topbar ul li a:hover{
+    background-color: black;
+}
+
+
+.footer{
+    background-color: seagreen;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: left;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.footer ul li a{
+    display: block;
+    padding: 1.5em;
+    color: black;
+    transition: .5s;
+}
+
+.footer ul li a:hover{
     background-color: black;
 }
 
@@ -67,7 +92,7 @@ h1 {
 main{
     width: 100%;
     max-width: 1080px;
-    background-color: peachpuff;
+    background-color: rgb(243, 238, 234);
     /* Automatic margin on the right and left hand side */
     margin: 0 auto;
 }
